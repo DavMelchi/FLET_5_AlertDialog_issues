@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# VS Code
+.vscode/
+__pycache__/
+/TEST_FILES/__pycache__/
+/Allpages/__pycache__/
+
+
+#local histoty folder and export folders
+.history/
+/assets/export/eleve/
+/assets/export/classe/
+/assets/export/frais/
+/assets/export/VerificationFrais/
+/assets/export/niveau/
+/assets/export/General/
+/assets/export/payement/
+/assets/import/
+/assets/export/PDF/
+# mac specific
+.DS_Store
+*.bkp
+.python-version
+vendor/
